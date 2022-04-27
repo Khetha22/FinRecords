@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/financials">
+
+    <fragment
+        android:id="@+id/financials"
+        android:name="com.example.records.ui.Financials"
+        android:label="Financials"
+        tools:layout="@layout/fragment_financials" />
+    <fragment
+        android:id="@+id/inventory"
+        android:name="com.example.records.ui.Inventory"
+        android:label="Inventory"
+        tools:layout="@layout/fragment_inventory" />
+    <fragment
+        android:id="@+id/clerksCashUp"
+        android:name="com.example.records.ui.ClerksCashUp"
+        android:label="Clerks"
+        tools:layout="@layout/fragment_clerks_cash_up" />
+    <fragment
+        android:id="@+id/dailyCashUp"
+        android:name="com.example.records.ui.DailyCashUp"
+        android:label="CashUp"
+        tools:layout="@layout/fragment_daily_cash_up" />
+    <fragment
+        android:id="@+id/weeklyCashUp"
+        android:name="com.example.records.ui.WeeklyCashUp"
+        android:label="Weekly"
+        tools:layout="@layout/fragment_weekly_cash_up" />
+    <fragment
+        android:id="@+id/dailyInventory"
+        android:name="com.example.records.ui.DailyInventory"
+        android:label="DailyInventory"
+        tools:layout="@layout/fragment_daily_inventory" />
+    <fragment
+        android:id="@+id/weeklyInventory"
+        android:name="com.example.records.ui.WeeklyInventory"
+        android:label="WeeklyInventory"
+        tools:layout="@layout/fragment_weekly_inventory" />
+</navigation>

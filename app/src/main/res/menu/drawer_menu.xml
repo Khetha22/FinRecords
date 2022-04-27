@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:checkableBehavior="single">
+      <item android:title="Clerks"
+      android:id="@+id/clerksCashUp"
+      android:icon="@drawable/ic_event_24"/>
+      <item android:title="CashUp"
+          android:icon="@drawable/ic_cash_24"
+          android:id="@+id/dailyCashUp"/>
+      <item android:title="WeeklyCashUp"
+          android:id="@+id/weeklyCashUp"
+          android:icon="@drawable/ic_baseline_equalizer_24"/>
+
+  </group>
+
+  <group android:checkableBehavior="single">
+      <item android:icon="@drawable/ic_folder24"
+          android:id="@+id/financials"
+          android:title="Financials">
+
+      </item>
+      <item android:title="Inventory"
+          android:icon="@drawable/ic_folder24"
+          android:id="@+id/inventory">
+
+      </item>
+
+  </group>
+</menu>
